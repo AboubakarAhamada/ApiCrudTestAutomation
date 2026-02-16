@@ -69,6 +69,8 @@ mvn test
 Une fois les tests exécutés, les rapports sont générés :
 
 HTML → target/cucumber.html
+
 JSON → target/cucumber.json
+
 JUnit XML → target/surefire-reports/
 
