@@ -22,7 +22,7 @@ L’objectif du projet est de fournir une structure claire, maintenable et exten
 ---
 
 ## 🗂️ Structure du projet
-src
+```src
 └── test
     ├── java
     │    ├── runners
@@ -37,6 +37,7 @@ src
             └── put.feature                 # Scénarios Gherkin
             └── delete.feature              # Scénarios Gherkin
             └── update.feature              # Scénarios Gherkin
+ ```
 
 ## 📦 Installation & Requirements
 
@@ -63,5 +64,11 @@ Plugins :
 #### Exécuter les tests
 ```bash
 mvn test
+```
+📊 Rapports
+Une fois les tests exécutés, les rapports sont générés :
 
+HTML → target/cucumber.html
+JSON → target/cucumber.json
+JUnit XML → target/surefire-reports/
 
