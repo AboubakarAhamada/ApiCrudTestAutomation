@@ -65,7 +65,7 @@ Plugins :
 ```bash
 mvn test
 ```
-📊 Rapports
+### 📊 Rapports
 Une fois les tests exécutés, les rapports sont générés :
 
 HTML → target/cucumber.html
